@@ -1,0 +1,29 @@
+{
+   "completed_at" : "20220423T133014Z",
+   "completed_status" : "Fail",
+   "file_paths" : 
+   [
+      "/mount/oswmodel/generated_files",
+      "/mount/scheds",
+      "./files",
+      "./weather",
+      "../../files",
+      "../../weather",
+      "./"
+   ],
+   "hash" : "C2C4466D",
+   "measure_paths" : [],
+   "steps" : 
+   [
+      {
+         "arguments" : 
+         {
+            "model_json" : "/root/simulation/test.hbjson",
+            "schedule_csv_dir" : "/mount/scheds"
+         },
+         "measure_dir_name" : "from_honeybee_model"
+      }
+   ],
+   "updated_at" : "20220423T133014Z",
+   "weather_file" : "/mount/weather/USA_IL_Chicago.OHare.Intl.AP.725300_TMYx.epw"
+}

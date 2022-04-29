@@ -1,0 +1,8 @@
+# Build from the dockerfile in the folder
+docker build -t eppy .
+
+# Get to the shell:
+docker run --rm -it -v ${PWD}:/mount --entrypoint bash eppy
+
+# Run Jupyter Notebook:
+jupyter notebook --ip 0.0.0.0 --no-browser --allow-root

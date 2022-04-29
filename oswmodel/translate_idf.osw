@@ -1,0 +1,12 @@
+{
+    "steps": [
+        {
+            "arguments": {
+                "idf_model": "basic.idf",
+                "output_file_path": "/hbmodel"
+            },
+            "measure_dir_name": "from_idf_model"
+        }
+    ],
+    "measure_paths": []
+}

@@ -1,0 +1,2975 @@
+{
+    "BuildingSurface:Detailed": {
+        "Office1..Face0": {
+            "construction_name": "Generic Interior Floor",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 83,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office1"
+        },
+        "Office1..Face1": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 84,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office2..Face3",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office1"
+        },
+        "Office1..Face2": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 85,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office3..Face4",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office1"
+        },
+        "Office1..Face3": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 86,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office1"
+        },
+        "Office1..Face4": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 88,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office1"
+        },
+        "Office1..Face5": {
+            "construction_name": "Generic Interior Ceiling",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 90,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Ceiling",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office1"
+        },
+        "Office2..Face0": {
+            "construction_name": "Generic Interior Floor",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 97,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office2"
+        },
+        "Office2..Face1": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 98,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office2"
+        },
+        "Office2..Face2": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 100,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office4..Face4",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office2"
+        },
+        "Office2..Face3": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 101,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office1..Face1",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office2"
+        },
+        "Office2..Face4": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 102,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office2"
+        },
+        "Office2..Face5": {
+            "construction_name": "Generic Interior Ceiling",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 104,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Ceiling",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 0.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office2"
+        },
+        "Office3..Face0": {
+            "construction_name": "Generic Interior Floor",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 111,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office3"
+        },
+        "Office3..Face1": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 112,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office4..Face3",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office3"
+        },
+        "Office3..Face2": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 113,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office3"
+        },
+        "Office3..Face3": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 115,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office3"
+        },
+        "Office3..Face4": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 117,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office1..Face2",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office3"
+        },
+        "Office3..Face5": {
+            "construction_name": "Generic Interior Ceiling",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 118,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Ceiling",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 0.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office3"
+        },
+        "Office4..Face0": {
+            "construction_name": "Generic Interior Floor",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 125,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Floor",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office4"
+        },
+        "Office4..Face1": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 126,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office4"
+        },
+        "Office4..Face2": {
+            "construction_name": "Generic Exterior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 128,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Outdoors",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "WindExposed",
+            "wind_exposure": "SunExposed",
+            "zone_name": "Office4"
+        },
+        "Office4..Face3": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 130,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office3..Face1",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office4"
+        },
+        "Office4..Face4": {
+            "construction_name": "Generic Interior Wall",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 131,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Surface",
+            "sun_exposure": "Office2..Face2",
+            "surface_type": "Wall",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 3.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office4"
+        },
+        "Office4..Face5": {
+            "construction_name": "Generic Interior Ceiling",
+            "idf_max_extensible_fields": 13,
+            "idf_max_fields": 23,
+            "idf_order": 132,
+            "number_of_vertices": "Autocalculate",
+            "outside_boundary_condition_object": "Adiabatic",
+            "surface_type": "Ceiling",
+            "vertices": [
+                {
+                    "vertex_x_coordinate": 4,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 10.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 10.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0,
+                    "vertex_y_coordinate": 20.0,
+                    "vertex_z_coordinate": 20.0
+                },
+                {
+                    "vertex_x_coordinate": 6.0
+                }
+            ],
+            "view_factor_to_ground": "NoWind",
+            "wind_exposure": "NoSun",
+            "zone_name": "Office4"
+        }
+    },
+    "Construction": {
+        "Generic Double Pane": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 65,
+            "layer_2": "Generic Window Air Gap",
+            "layer_3": "Generic Clear Glass",
+            "outside_layer": "Generic Low-e Glass"
+        },
+        "Generic Exposed Floor": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 72,
+            "layer_2": "Generic Ceiling Air Gap",
+            "layer_3": "Generic 50mm Insulation",
+            "layer_4": "Generic LW Concrete",
+            "outside_layer": "Generic Painted Metal"
+        },
+        "Generic Exterior Door": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 63,
+            "layer_2": "Generic 25mm Insulation",
+            "layer_3": "Generic Painted Metal",
+            "outside_layer": "Generic Painted Metal"
+        },
+        "Generic Exterior Wall": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 76,
+            "layer_2": "Generic LW Concrete",
+            "layer_3": "Generic 50mm Insulation",
+            "layer_4": "Generic Wall Air Gap",
+            "layer_5": "Generic Gypsum Board",
+            "outside_layer": "Generic Brick"
+        },
+        "Generic Ground Slab": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 75,
+            "layer_2": "Generic HW Concrete",
+            "outside_layer": "Generic 50mm Insulation"
+        },
+        "Generic Interior Ceiling": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 73,
+            "layer_2": "Generic Ceiling Air Gap",
+            "layer_3": "Generic Acoustic Tile",
+            "outside_layer": "Generic LW Concrete"
+        },
+        "Generic Interior Door": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 70,
+            "outside_layer": "Generic 25mm Wood"
+        },
+        "Generic Interior Floor": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 69,
+            "layer_2": "Generic Ceiling Air Gap",
+            "layer_3": "Generic LW Concrete",
+            "outside_layer": "Generic Acoustic Tile"
+        },
+        "Generic Interior Wall": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 4,
+            "idf_order": 71,
+            "layer_2": "Generic Wall Air Gap",
+            "layer_3": "Generic Gypsum Board",
+            "outside_layer": "Generic Gypsum Board"
+        },
+        "Generic Roof": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 64,
+            "layer_2": "Generic 50mm Insulation",
+            "layer_3": "Generic LW Concrete",
+            "layer_4": "Generic Ceiling Air Gap",
+            "layer_5": "Generic Acoustic Tile",
+            "outside_layer": "Generic Roof Membrane"
+        },
+        "Generic Single Pane": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 2,
+            "idf_order": 74,
+            "outside_layer": "Generic Clear Glass"
+        },
+        "Generic Underground Roof": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 66,
+            "layer_2": "Generic HW Concrete",
+            "layer_3": "Generic Ceiling Air Gap",
+            "layer_4": "Generic Acoustic Tile",
+            "outside_layer": "Generic 50mm Insulation"
+        },
+        "Generic Underground Wall": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 68,
+            "layer_2": "Generic HW Concrete",
+            "layer_3": "Generic Wall Air Gap",
+            "layer_4": "Generic Gypsum Board",
+            "outside_layer": "Generic 50mm Insulation"
+        }
+    },
+    "DesignSpecification:OutdoorAir": {
+        "Generic Office Ventilation..Office1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 82,
+            "outdoor_air_flow_air_changes_per_hour": 0.0,
+            "outdoor_air_flow_per_person": 0.00236,
+            "outdoor_air_flow_per_zone": 0.0,
+            "outdoor_air_flow_per_zone_floor_area": 0.000305,
+            "outdoor_air_method": "Sum"
+        },
+        "Generic Office Ventilation..Office2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 96,
+            "outdoor_air_flow_air_changes_per_hour": 0.0,
+            "outdoor_air_flow_per_person": 0.00236,
+            "outdoor_air_flow_per_zone": 0.0,
+            "outdoor_air_flow_per_zone_floor_area": 0.000305,
+            "outdoor_air_method": "Sum"
+        },
+        "Generic Office Ventilation..Office3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 110,
+            "outdoor_air_flow_air_changes_per_hour": 0.0,
+            "outdoor_air_flow_per_person": 0.00236,
+            "outdoor_air_flow_per_zone": 0.0,
+            "outdoor_air_flow_per_zone_floor_area": 0.000305,
+            "outdoor_air_method": "Sum"
+        },
+        "Generic Office Ventilation..Office4": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 124,
+            "outdoor_air_flow_air_changes_per_hour": 0.0,
+            "outdoor_air_flow_per_person": 0.00236,
+            "outdoor_air_flow_per_zone": 0.0,
+            "outdoor_air_flow_per_zone_floor_area": 0.000305,
+            "outdoor_air_method": "Sum"
+        }
+    },
+    "ElectricEquipment": {
+        "Generic Office Equipment..Office1": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.5,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 80,
+            "schedule_name": "Generic Office Equipment",
+            "watts_per_zone_floor_area": 10.33,
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Generic Office Equipment..Office2": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.5,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 94,
+            "schedule_name": "Generic Office Equipment",
+            "watts_per_zone_floor_area": 10.33,
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Generic Office Equipment..Office3": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.5,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 108,
+            "schedule_name": "Generic Office Equipment",
+            "watts_per_zone_floor_area": 10.33,
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Generic Office Equipment..Office4": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_latent": 0.0,
+            "fraction_lost": 0.0,
+            "fraction_radiant": 0.5,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 122,
+            "schedule_name": "Generic Office Equipment",
+            "watts_per_zone_floor_area": 10.33,
+            "zone_or_zonelist_name": "Office4"
+        }
+    },
+    "FenestrationSurface:Detailed": {
+        "Office1..Face3_Glz1": {
+            "building_surface_name": "Office1..Face3",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 87,
+            "multiplier": 4,
+            "number_of_vertices": 0.0,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 8.162,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 0.0,
+            "vertex_2_x_coordinate": 8.162,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 0.0,
+            "vertex_3_x_coordinate": 1.838,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 0.0,
+            "vertex_4_x_coordinate": 1.838,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office1..Face4_Glz1": {
+            "building_surface_name": "Office1..Face4",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 89,
+            "multiplier": 4,
+            "number_of_vertices": 1.838,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 0.0,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 1.838,
+            "vertex_2_x_coordinate": 0.0,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 8.162,
+            "vertex_3_x_coordinate": 0.0,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 8.162,
+            "vertex_4_x_coordinate": 0.0,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office2..Face1_Glz1": {
+            "building_surface_name": "Office2..Face1",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 99,
+            "multiplier": 4,
+            "number_of_vertices": 20.0,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 1.838,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 20.0,
+            "vertex_2_x_coordinate": 1.838,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 20.0,
+            "vertex_3_x_coordinate": 8.162,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 20.0,
+            "vertex_4_x_coordinate": 8.162,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office2..Face4_Glz1": {
+            "building_surface_name": "Office2..Face4",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 103,
+            "multiplier": 4,
+            "number_of_vertices": 11.838,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 0.0,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 11.838,
+            "vertex_2_x_coordinate": 0.0,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 18.162,
+            "vertex_3_x_coordinate": 0.0,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 18.162,
+            "vertex_4_x_coordinate": 0.0,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office3..Face2_Glz1": {
+            "building_surface_name": "Office3..Face2",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 114,
+            "multiplier": 4,
+            "number_of_vertices": 8.162,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 20.0,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 8.162,
+            "vertex_2_x_coordinate": 20.0,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 1.838,
+            "vertex_3_x_coordinate": 20.0,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 1.838,
+            "vertex_4_x_coordinate": 20.0,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office3..Face3_Glz1": {
+            "building_surface_name": "Office3..Face3",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 116,
+            "multiplier": 4,
+            "number_of_vertices": 0.0,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 18.162,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 0.0,
+            "vertex_2_x_coordinate": 18.162,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 0.0,
+            "vertex_3_x_coordinate": 11.838,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 0.0,
+            "vertex_4_x_coordinate": 11.838,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office4..Face1_Glz1": {
+            "building_surface_name": "Office4..Face1",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 127,
+            "multiplier": 4,
+            "number_of_vertices": 20.0,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 11.838,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 20.0,
+            "vertex_2_x_coordinate": 11.838,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 20.0,
+            "vertex_3_x_coordinate": 18.162,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 20.0,
+            "vertex_4_x_coordinate": 18.162,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        },
+        "Office4..Face2_Glz1": {
+            "building_surface_name": "Office4..Face2",
+            "construction_name": "Generic Double Pane",
+            "frame_and_divider_name": "1",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 21,
+            "idf_order": 129,
+            "multiplier": 4,
+            "number_of_vertices": 18.162,
+            "surface_type": "Window",
+            "vertex_1_x_coordinate": 20.0,
+            "vertex_1_y_coordinate": 5.449,
+            "vertex_1_z_coordinate": 18.162,
+            "vertex_2_x_coordinate": 20.0,
+            "vertex_2_y_coordinate": 3.551,
+            "vertex_2_z_coordinate": 11.838,
+            "vertex_3_x_coordinate": 20.0,
+            "vertex_3_y_coordinate": 3.551,
+            "vertex_3_z_coordinate": 11.838,
+            "vertex_4_x_coordinate": 20.0,
+            "vertex_4_y_coordinate": 5.449,
+            "view_factor_to_ground": "Autocalculate"
+        }
+    },
+    "Lights": {
+        "Generic Office Lighting..Office1": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_radiant": 0.7,
+            "fraction_visible": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 79,
+            "return_air_fraction": 0.0,
+            "schedule_name": "Generic Office Lighting",
+            "watts_per_zone_floor_area": 10.55,
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Generic Office Lighting..Office2": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_radiant": 0.7,
+            "fraction_visible": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 93,
+            "return_air_fraction": 0.0,
+            "schedule_name": "Generic Office Lighting",
+            "watts_per_zone_floor_area": 10.55,
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Generic Office Lighting..Office3": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_radiant": 0.7,
+            "fraction_visible": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 107,
+            "return_air_fraction": 0.0,
+            "schedule_name": "Generic Office Lighting",
+            "watts_per_zone_floor_area": 10.55,
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Generic Office Lighting..Office4": {
+            "design_level_calculation_method": "Watts/Area",
+            "fraction_radiant": 0.7,
+            "fraction_visible": 0.2,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 11,
+            "idf_order": 121,
+            "return_air_fraction": 0.0,
+            "schedule_name": "Generic Office Lighting",
+            "watts_per_zone_floor_area": 10.55,
+            "zone_or_zonelist_name": "Office4"
+        }
+    },
+    "Material": {
+        "Generic 25mm Insulation": {
+            "conductivity": 0.03,
+            "density": 43.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 60,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1210.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.05,
+            "visible_absorptance": 0.7
+        },
+        "Generic 25mm Wood": {
+            "conductivity": 0.15,
+            "density": 608.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 57,
+            "roughness": "MediumSmooth",
+            "solar_absorptance": 0.5,
+            "specific_heat": 1630.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.0254,
+            "visible_absorptance": 0.5
+        },
+        "Generic 50mm Insulation": {
+            "conductivity": 0.03,
+            "density": 43.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 55,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1210.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.05,
+            "visible_absorptance": 0.7
+        },
+        "Generic Acoustic Tile": {
+            "conductivity": 0.06,
+            "density": 368.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 49,
+            "roughness": "MediumSmooth",
+            "solar_absorptance": 0.2,
+            "specific_heat": 590.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.02,
+            "visible_absorptance": 0.2
+        },
+        "Generic Brick": {
+            "conductivity": 0.9,
+            "density": 1920.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 54,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.65,
+            "specific_heat": 790.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1,
+            "visible_absorptance": 0.65
+        },
+        "Generic Ceiling Air Gap": {
+            "conductivity": 0.556,
+            "density": 1.28,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 50,
+            "roughness": "Smooth",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1000.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1,
+            "visible_absorptance": 0.7
+        },
+        "Generic Gypsum Board": {
+            "conductivity": 0.16,
+            "density": 800.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 58,
+            "roughness": "MediumSmooth",
+            "solar_absorptance": 0.5,
+            "specific_heat": 1090.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.0127,
+            "visible_absorptance": 0.5
+        },
+        "Generic HW Concrete": {
+            "conductivity": 1.95,
+            "density": 2240.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 62,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.8,
+            "specific_heat": 900.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.2,
+            "visible_absorptance": 0.8
+        },
+        "Generic LW Concrete": {
+            "conductivity": 0.53,
+            "density": 1280.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 51,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.8,
+            "specific_heat": 840.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1,
+            "visible_absorptance": 0.8
+        },
+        "Generic Painted Metal": {
+            "conductivity": 45.0,
+            "density": 7690.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 48,
+            "roughness": "Smooth",
+            "solar_absorptance": 0.5,
+            "specific_heat": 410.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.0015,
+            "visible_absorptance": 0.5
+        },
+        "Generic Roof Membrane": {
+            "conductivity": 0.16,
+            "density": 1120.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 53,
+            "roughness": "MediumRough",
+            "solar_absorptance": 0.65,
+            "specific_heat": 1460.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.01,
+            "visible_absorptance": 0.65
+        },
+        "Generic Wall Air Gap": {
+            "conductivity": 0.667,
+            "density": 1.28,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 9,
+            "idf_order": 56,
+            "roughness": "Smooth",
+            "solar_absorptance": 0.7,
+            "specific_heat": 1000.0,
+            "thermal_absorptance": 0.9,
+            "thickness": 0.1,
+            "visible_absorptance": 0.7
+        }
+    },
+    "People": {
+        "Generic Office People..Office1": {
+            "activity_level_schedule_name": "Seated Adult Activity",
+            "fraction_radiant": 0.3,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 78,
+            "number_of_people_calculation_method": "People/Area",
+            "number_of_people_schedule_name": "Generic Office Occupancy",
+            "people_per_zone_floor_area": 0.0565,
+            "sensible_heat_fraction": "Autocalculate",
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Generic Office People..Office2": {
+            "activity_level_schedule_name": "Seated Adult Activity",
+            "fraction_radiant": 0.3,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 92,
+            "number_of_people_calculation_method": "People/Area",
+            "number_of_people_schedule_name": "Generic Office Occupancy",
+            "people_per_zone_floor_area": 0.0565,
+            "sensible_heat_fraction": "Autocalculate",
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Generic Office People..Office3": {
+            "activity_level_schedule_name": "Seated Adult Activity",
+            "fraction_radiant": 0.3,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 106,
+            "number_of_people_calculation_method": "People/Area",
+            "number_of_people_schedule_name": "Generic Office Occupancy",
+            "people_per_zone_floor_area": 0.0565,
+            "sensible_heat_fraction": "Autocalculate",
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Generic Office People..Office4": {
+            "activity_level_schedule_name": "Seated Adult Activity",
+            "fraction_radiant": 0.3,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 120,
+            "number_of_people_calculation_method": "People/Area",
+            "number_of_people_schedule_name": "Generic Office Occupancy",
+            "people_per_zone_floor_area": 0.0565,
+            "sensible_heat_fraction": "Autocalculate",
+            "zone_or_zonelist_name": "Office4"
+        }
+    },
+    "Schedule:Compact": {
+        "HVACTemplate-Always 4": {
+            "data": [
+                {
+                    "field": "Through: 12/31"
+                },
+                {
+                    "field": "For: AllDays"
+                },
+                {
+                    "field": "Until: 24:00"
+                },
+                {
+                    "field": 4
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 138,
+            "schedule_type_limits_name": "HVACTemplate Any Number"
+        }
+    },
+    "Schedule:Constant": {
+        "Always On": {
+            "hourly_value": 1.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 47,
+            "schedule_type_limits_name": "Fractional"
+        },
+        "Seated Adult Activity": {
+            "hourly_value": 120.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 4,
+            "schedule_type_limits_name": "Activity Level"
+        }
+    },
+    "Schedule:Day:Interval": {
+        "OfficeMedium BLDG_EQUIP_SCH_2013_Sat": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.2307553806
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.381234796
+                },
+                {
+                    "time": "12:00",
+                    "value_until_time": 0.476543495
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.3335804465
+                },
+                {
+                    "time": "19:00",
+                    "value_until_time": 0.285926097
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.2307553806
+                }
+            ],
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 15,
+            "idf_order": 31,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_EQUIP_SCH_2013_SmrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 29,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_EQUIP_SCH_2013_Sun": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.2307553806
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.288107175
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.2307553806
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 28,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.3076738408
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.381234796
+                },
+                {
+                    "time": "12:00",
+                    "value_until_time": 0.857778291
+                },
+                {
+                    "time": "13:00",
+                    "value_until_time": 0.762469592
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.857778291
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.476543495
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.381234796
+                }
+            ],
+            "idf_max_extensible_fields": 14,
+            "idf_max_fields": 17,
+            "idf_order": 32,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_EQUIP_SCH_2013_WntrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 30,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_LIGHT_SCH_2013_Sat": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.05
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.08623256
+                },
+                {
+                    "time": "12:00",
+                    "value_until_time": 0.25869768
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.12934884
+                },
+                {
+                    "time": "19:00",
+                    "value_until_time": 0.04311628
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.05
+                }
+            ],
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 15,
+            "idf_order": 24,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_LIGHT_SCH_2013_SmrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 22,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_LIGHT_SCH_2013_Sun": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.05
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.04311628
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.05
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 21,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 0.05
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.1
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 0.08623256
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.25869768
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.77609304
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.4311628
+                },
+                {
+                    "time": "20:00",
+                    "value_until_time": 0.25869768
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 0.17246512
+                },
+                {
+                    "time": "23:00",
+                    "value_until_time": 0.08623256
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.04311628
+                }
+            ],
+            "idf_max_extensible_fields": 20,
+            "idf_max_fields": 23,
+            "idf_order": 25,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_LIGHT_SCH_2013_WntrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 23,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_OCC_SCH_Default": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.0
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.05
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.0
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 35,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_OCC_SCH_Sat": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.0
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.1
+                },
+                {
+                    "time": "12:00",
+                    "value_until_time": 0.3
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.1
+                },
+                {
+                    "time": "19:00",
+                    "value_until_time": 0.05
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.0
+                }
+            ],
+            "idf_max_extensible_fields": 12,
+            "idf_max_fields": 15,
+            "idf_order": 39,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_OCC_SCH_SmrDsn": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 1.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.05
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 36,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_OCC_SCH_Wkdy": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 0.0
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 0.1
+                },
+                {
+                    "time": "08:00",
+                    "value_until_time": 0.2
+                },
+                {
+                    "time": "12:00",
+                    "value_until_time": 0.95
+                },
+                {
+                    "time": "13:00",
+                    "value_until_time": 0.5
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 0.95
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.3
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 0.1
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.05
+                }
+            ],
+            "idf_max_extensible_fields": 18,
+            "idf_max_fields": 21,
+            "idf_order": 38,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium BLDG_OCC_SCH_WntrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 0.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 37,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 26.7
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 7,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default_WntrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 26.7
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 9,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Sat": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 26.7
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 25.7
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 25.0
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 24.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 26.7
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 11,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_SmrDsn": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 26.7
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 25.7
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 25.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 24.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 26.7
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 8,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 26.7
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 25.6
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 25.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 24.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 26.7
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 10,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 15.6
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 14,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default_SmrDsn": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 15.6
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 15,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Sat": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 15.6
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 17.8
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 20.0
+                },
+                {
+                    "time": "17:00",
+                    "value_until_time": 21.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 15.6
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 18,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 15.6
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 17.8
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 20.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 21.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 15.6
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 17,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_WntrDsn": {
+            "data": [
+                {
+                    "time": "05:00",
+                    "value_until_time": 15.6
+                },
+                {
+                    "time": "06:00",
+                    "value_until_time": 17.6
+                },
+                {
+                    "time": "07:00",
+                    "value_until_time": 19.6
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 21.0
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 15.6
+                }
+            ],
+            "idf_max_extensible_fields": 10,
+            "idf_max_fields": 13,
+            "idf_order": 16,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Temperature"
+        },
+        "OfficeMedium INFIL_SCH_PNNL_Default": {
+            "data": [
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 2,
+            "idf_max_fields": 5,
+            "idf_order": 42,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium INFIL_SCH_PNNL_Sat": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 1.0
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.25
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 46,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium INFIL_SCH_PNNL_Sat_WntrDsn": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 1.0
+                },
+                {
+                    "time": "18:00",
+                    "value_until_time": 0.25
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 44,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium INFIL_SCH_PNNL_Wkdy": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 1.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 0.25
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 45,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        },
+        "OfficeMedium INFIL_SCH_PNNL_Wkdy_SmrDsn": {
+            "data": [
+                {
+                    "time": "06:00",
+                    "value_until_time": 1.0
+                },
+                {
+                    "time": "22:00",
+                    "value_until_time": 0.25
+                },
+                {
+                    "time": "24:00",
+                    "value_until_time": 1.0
+                }
+            ],
+            "idf_max_extensible_fields": 6,
+            "idf_max_fields": 9,
+            "idf_order": 43,
+            "interpolate_to_timestep": "No",
+            "schedule_type_limits_name": "Fractional"
+        }
+    },
+    "Schedule:Week:Daily": {
+        "Generic Office Cooling_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default",
+            "customday2_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default",
+            "friday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 6,
+            "monday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default",
+            "thursday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium CLGSETP_SCH_YES_OPTIMUM_Default_WntrDsn"
+        },
+        "Generic Office Equipment_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Sun",
+            "customday2_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Sun",
+            "friday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Sat",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 27,
+            "monday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Sun",
+            "thursday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium BLDG_EQUIP_SCH_2013_WntrDsn"
+        },
+        "Generic Office Heating_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default",
+            "customday2_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default",
+            "friday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 13,
+            "monday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Default",
+            "thursday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium HTGSETP_SCH_YES_OPTIMUM_WntrDsn"
+        },
+        "Generic Office Infiltration_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Default",
+            "customday2_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Default",
+            "friday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Default",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 41,
+            "monday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Default",
+            "thursday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium INFIL_SCH_PNNL_Sat_WntrDsn"
+        },
+        "Generic Office Lighting_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Sun",
+            "customday2_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Sun",
+            "friday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Sat",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 20,
+            "monday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Sun",
+            "thursday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium BLDG_LIGHT_SCH_2013_WntrDsn"
+        },
+        "Generic Office Occupancy_Week 1": {
+            "customday1_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Default",
+            "customday2_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Default",
+            "friday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Wkdy",
+            "holiday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Default",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 13,
+            "idf_order": 34,
+            "monday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Wkdy",
+            "saturday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Sat",
+            "summerdesignday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_SmrDsn",
+            "sunday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Default",
+            "thursday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Wkdy",
+            "tuesday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Wkdy",
+            "wednesday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_Wkdy",
+            "winterdesignday_schedule_day_name": "OfficeMedium BLDG_OCC_SCH_WntrDsn"
+        }
+    },
+    "Schedule:Year": {
+        "Generic Office Cooling": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 5,
+            "schedule_type_limits_name": "Temperature",
+            "schedule_week_name_1": "Generic Office Cooling_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        },
+        "Generic Office Equipment": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 26,
+            "schedule_type_limits_name": "Fractional",
+            "schedule_week_name_1": "Generic Office Equipment_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        },
+        "Generic Office Heating": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 12,
+            "schedule_type_limits_name": "Temperature",
+            "schedule_week_name_1": "Generic Office Heating_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        },
+        "Generic Office Infiltration": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 40,
+            "schedule_type_limits_name": "Fractional",
+            "schedule_week_name_1": "Generic Office Infiltration_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        },
+        "Generic Office Lighting": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 19,
+            "schedule_type_limits_name": "Fractional",
+            "schedule_week_name_1": "Generic Office Lighting_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        },
+        "Generic Office Occupancy": {
+            "end_day_1": 31,
+            "end_month_1": 12,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 7,
+            "idf_order": 33,
+            "schedule_type_limits_name": "Fractional",
+            "schedule_week_name_1": "Generic Office Occupancy_Week 1",
+            "start_day_1": 1,
+            "start_month_1": 1
+        }
+    },
+    "ScheduleTypeLimits": {
+        "Activity Level": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 2,
+            "lower_limit_value": 0.0,
+            "numeric_type": "Continuous",
+            "unit_type": "ActivityLevel"
+        },
+        "Fractional": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 1,
+            "lower_limit_value": 0.0,
+            "numeric_type": "Continuous",
+            "unit_type": "Dimensionless",
+            "upper_limit_value": 1.0
+        },
+        "HVACTemplate Any Number": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 1,
+            "idf_order": 137
+        },
+        "Temperature": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 3,
+            "lower_limit_value": -273.15,
+            "numeric_type": "Continuous",
+            "unit_type": "Temperature"
+        }
+    },
+    "Sizing:Zone": {
+        "Sizing:Zone 1": {
+            "cooling_design_air_flow_method": "DesignDay",
+            "cooling_design_air_flow_rate": 0,
+            "cooling_minimum_air_flow_fraction": 0,
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office1",
+            "heating_design_air_flow_method": "DesignDay",
+            "heating_design_air_flow_rate": 0,
+            "heating_maximum_air_flow_fraction": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 23,
+            "idf_order": 140,
+            "zone_cooling_design_supply_air_humidity_ratio": 0.0077,
+            "zone_cooling_design_supply_air_temperature": 13.0,
+            "zone_cooling_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_heating_design_supply_air_humidity_ratio": 0.0156,
+            "zone_heating_design_supply_air_temperature": 50.0,
+            "zone_heating_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Sizing:Zone 2": {
+            "cooling_design_air_flow_method": "DesignDay",
+            "cooling_design_air_flow_rate": 0,
+            "cooling_minimum_air_flow_fraction": 0,
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office2",
+            "heating_design_air_flow_method": "DesignDay",
+            "heating_design_air_flow_rate": 0,
+            "heating_maximum_air_flow_fraction": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 23,
+            "idf_order": 145,
+            "zone_cooling_design_supply_air_humidity_ratio": 0.0077,
+            "zone_cooling_design_supply_air_temperature": 13.0,
+            "zone_cooling_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_heating_design_supply_air_humidity_ratio": 0.0156,
+            "zone_heating_design_supply_air_temperature": 50.0,
+            "zone_heating_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Sizing:Zone 3": {
+            "cooling_design_air_flow_method": "DesignDay",
+            "cooling_design_air_flow_rate": 0,
+            "cooling_minimum_air_flow_fraction": 0,
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office3",
+            "heating_design_air_flow_method": "DesignDay",
+            "heating_design_air_flow_rate": 0,
+            "heating_maximum_air_flow_fraction": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 23,
+            "idf_order": 150,
+            "zone_cooling_design_supply_air_humidity_ratio": 0.0077,
+            "zone_cooling_design_supply_air_temperature": 13.0,
+            "zone_cooling_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_heating_design_supply_air_humidity_ratio": 0.0156,
+            "zone_heating_design_supply_air_temperature": 50.0,
+            "zone_heating_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Sizing:Zone 4": {
+            "cooling_design_air_flow_method": "DesignDay",
+            "cooling_design_air_flow_rate": 0,
+            "cooling_minimum_air_flow_fraction": 0,
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office4",
+            "heating_design_air_flow_method": "DesignDay",
+            "heating_design_air_flow_rate": 0,
+            "heating_maximum_air_flow_fraction": 0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 23,
+            "idf_order": 155,
+            "zone_cooling_design_supply_air_humidity_ratio": 0.0077,
+            "zone_cooling_design_supply_air_temperature": 13.0,
+            "zone_cooling_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_heating_design_supply_air_humidity_ratio": 0.0156,
+            "zone_heating_design_supply_air_temperature": 50.0,
+            "zone_heating_design_supply_air_temperature_input_method": "SupplyAirTemperature",
+            "zone_or_zonelist_name": "Office4"
+        }
+    },
+    "ThermostatSetpoint:DualSetpoint": {
+        "Generic Office Setpoints..Office1 Dual SP Control": {
+            "cooling_setpoint_temperature_schedule_name": "Generic Office Cooling",
+            "heating_setpoint_temperature_schedule_name": "Generic Office Heating",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 133
+        },
+        "Generic Office Setpoints..Office2 Dual SP Control": {
+            "cooling_setpoint_temperature_schedule_name": "Generic Office Cooling",
+            "heating_setpoint_temperature_schedule_name": "Generic Office Heating",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 134
+        },
+        "Generic Office Setpoints..Office3 Dual SP Control": {
+            "cooling_setpoint_temperature_schedule_name": "Generic Office Cooling",
+            "heating_setpoint_temperature_schedule_name": "Generic Office Heating",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 135
+        },
+        "Generic Office Setpoints..Office4 Dual SP Control": {
+            "cooling_setpoint_temperature_schedule_name": "Generic Office Cooling",
+            "heating_setpoint_temperature_schedule_name": "Generic Office Heating",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 136
+        }
+    },
+    "WindowMaterial:Gas": {
+        "Generic Window Air Gap": {
+            "gas_type": "Air",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 3,
+            "idf_order": 59,
+            "thickness": 0.0127
+        }
+    },
+    "WindowMaterial:Glazing": {
+        "Generic Clear Glass": {
+            "back_side_infrared_hemispherical_emissivity": 0.84,
+            "back_side_solar_reflectance_at_normal_incidence": 0.07,
+            "back_side_visible_reflectance_at_normal_incidence": 0.08,
+            "conductivity": 1.0,
+            "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+            "front_side_infrared_hemispherical_emissivity": 0.84,
+            "front_side_solar_reflectance_at_normal_incidence": 0.07,
+            "front_side_visible_reflectance_at_normal_incidence": 0.08,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 16,
+            "idf_order": 52,
+            "infrared_transmittance_at_normal_incidence": 0.0,
+            "optical_data_type": "SpectralAverage",
+            "solar_diffusing": "No",
+            "solar_transmittance_at_normal_incidence": 0.77,
+            "thickness": 0.006,
+            "visible_transmittance_at_normal_incidence": 0.88
+        },
+        "Generic Low-e Glass": {
+            "back_side_infrared_hemispherical_emissivity": 0.047,
+            "back_side_solar_reflectance_at_normal_incidence": 0.36,
+            "back_side_visible_reflectance_at_normal_incidence": 0.21,
+            "conductivity": 1.0,
+            "dirt_correction_factor_for_solar_and_visible_transmittance": 1.0,
+            "front_side_infrared_hemispherical_emissivity": 0.84,
+            "front_side_solar_reflectance_at_normal_incidence": 0.36,
+            "front_side_visible_reflectance_at_normal_incidence": 0.21,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 16,
+            "idf_order": 61,
+            "infrared_transmittance_at_normal_incidence": 0.0,
+            "optical_data_type": "SpectralAverage",
+            "solar_diffusing": "No",
+            "solar_transmittance_at_normal_incidence": 0.45,
+            "thickness": 0.006,
+            "visible_transmittance_at_normal_incidence": 0.71
+        }
+    },
+    "Zone": {
+        "Office1": {
+            "ceiling_height": 3.0,
+            "floor_area": 100.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 77,
+            "multiplier": 4,
+            "volume": 300.0
+        },
+        "Office2": {
+            "ceiling_height": 3.0,
+            "floor_area": 100.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 91,
+            "multiplier": 4,
+            "volume": 300.0
+        },
+        "Office3": {
+            "ceiling_height": 3.0,
+            "floor_area": 100.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 105,
+            "multiplier": 4,
+            "volume": 300.0
+        },
+        "Office4": {
+            "ceiling_height": 3.0,
+            "floor_area": 100.0,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 10,
+            "idf_order": 119,
+            "multiplier": 4,
+            "volume": 300.0
+        }
+    },
+    "ZoneControl:Thermostat": {
+        "Office1 Thermostat": {
+            "control_1_name": "Generic Office Setpoints..Office1 Dual SP Control",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "HVACTemplate-Always 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 139,
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Office2 Thermostat": {
+            "control_1_name": "Generic Office Setpoints..Office2 Dual SP Control",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "HVACTemplate-Always 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 144,
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Office3 Thermostat": {
+            "control_1_name": "Generic Office Setpoints..Office3 Dual SP Control",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "HVACTemplate-Always 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 149,
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Office4 Thermostat": {
+            "control_1_name": "Generic Office Setpoints..Office4 Dual SP Control",
+            "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
+            "control_type_schedule_name": "HVACTemplate-Always 4",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 5,
+            "idf_order": 154,
+            "zone_or_zonelist_name": "Office4"
+        }
+    },
+    "ZoneHVAC:EquipmentConnections": {
+        "ZoneHVAC:EquipmentConnections 1": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 141,
+            "zone_air_inlet_node_or_nodelist_name": "Office1 Ideal Loads Supply Inlet",
+            "zone_air_node_name": "Office1 Zone Air Node",
+            "zone_conditioning_equipment_list_name": "Office1 Equipment",
+            "zone_name": "Office1",
+            "zone_return_air_node_or_nodelist_name": "Office1 Return Outlet"
+        },
+        "ZoneHVAC:EquipmentConnections 2": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 146,
+            "zone_air_inlet_node_or_nodelist_name": "Office2 Ideal Loads Supply Inlet",
+            "zone_air_node_name": "Office2 Zone Air Node",
+            "zone_conditioning_equipment_list_name": "Office2 Equipment",
+            "zone_name": "Office2",
+            "zone_return_air_node_or_nodelist_name": "Office2 Return Outlet"
+        },
+        "ZoneHVAC:EquipmentConnections 3": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 151,
+            "zone_air_inlet_node_or_nodelist_name": "Office3 Ideal Loads Supply Inlet",
+            "zone_air_node_name": "Office3 Zone Air Node",
+            "zone_conditioning_equipment_list_name": "Office3 Equipment",
+            "zone_name": "Office3",
+            "zone_return_air_node_or_nodelist_name": "Office3 Return Outlet"
+        },
+        "ZoneHVAC:EquipmentConnections 4": {
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 6,
+            "idf_order": 156,
+            "zone_air_inlet_node_or_nodelist_name": "Office4 Ideal Loads Supply Inlet",
+            "zone_air_node_name": "Office4 Zone Air Node",
+            "zone_conditioning_equipment_list_name": "Office4 Equipment",
+            "zone_name": "Office4",
+            "zone_return_air_node_or_nodelist_name": "Office4 Return Outlet"
+        }
+    },
+    "ZoneHVAC:EquipmentList": {
+        "Office1 Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Office1 Ideal Loads Air System",
+                    "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 142,
+            "load_distribution_scheme": "SequentialLoad"
+        },
+        "Office2 Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Office2 Ideal Loads Air System",
+                    "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 147,
+            "load_distribution_scheme": "SequentialLoad"
+        },
+        "Office3 Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Office3 Ideal Loads Air System",
+                    "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 152,
+            "load_distribution_scheme": "SequentialLoad"
+        },
+        "Office4 Equipment": {
+            "equipment": [
+                {
+                    "zone_equipment_cooling_sequence": 1,
+                    "zone_equipment_heating_or_no_load_sequence": 1,
+                    "zone_equipment_name": "Office4 Ideal Loads Air System",
+                    "zone_equipment_object_type": "ZoneHVAC:IdealLoadsAirSystem"
+                }
+            ],
+            "idf_max_extensible_fields": 4,
+            "idf_max_fields": 6,
+            "idf_order": 157,
+            "load_distribution_scheme": "SequentialLoad"
+        }
+    },
+    "ZoneHVAC:IdealLoadsAirSystem": {
+        "Office1 Ideal Loads Air System": {
+            "cooling_limit": "LimitFlowRateAndCapacity",
+            "cooling_sensible_heat_ratio": 0.7,
+            "dehumidification_control_type": "None",
+            "demand_controlled_ventilation_type": "None",
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office1",
+            "heat_recovery_type": "None",
+            "heating_limit": "LimitCapacity",
+            "humidification_control_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 27,
+            "idf_order": 143,
+            "latent_heat_recovery_effectiveness": 0.0,
+            "maximum_cooling_air_flow_rate": "Autosize",
+            "maximum_heating_supply_air_humidity_ratio": 0.0156,
+            "maximum_heating_supply_air_temperature": 50.0,
+            "maximum_sensible_heating_capacity": "Autosize",
+            "maximum_total_cooling_capacity": "Autosize",
+            "minimum_cooling_supply_air_humidity_ratio": 0.0077,
+            "minimum_cooling_supply_air_temperature": 13.0,
+            "outdoor_air_economizer_type": "DifferentialDryBulb",
+            "outdoor_air_inlet_node_name": "Office1 Ideal Loads Outdoor Air Inlet",
+            "sensible_heat_recovery_effectiveness": 0.0,
+            "zone_supply_air_node_name": "Office1 Ideal Loads Supply Inlet"
+        },
+        "Office2 Ideal Loads Air System": {
+            "cooling_limit": "LimitFlowRateAndCapacity",
+            "cooling_sensible_heat_ratio": 0.7,
+            "dehumidification_control_type": "None",
+            "demand_controlled_ventilation_type": "None",
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office2",
+            "heat_recovery_type": "None",
+            "heating_limit": "LimitCapacity",
+            "humidification_control_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 27,
+            "idf_order": 148,
+            "latent_heat_recovery_effectiveness": 0.0,
+            "maximum_cooling_air_flow_rate": "Autosize",
+            "maximum_heating_supply_air_humidity_ratio": 0.0156,
+            "maximum_heating_supply_air_temperature": 50.0,
+            "maximum_sensible_heating_capacity": "Autosize",
+            "maximum_total_cooling_capacity": "Autosize",
+            "minimum_cooling_supply_air_humidity_ratio": 0.0077,
+            "minimum_cooling_supply_air_temperature": 13.0,
+            "outdoor_air_economizer_type": "DifferentialDryBulb",
+            "outdoor_air_inlet_node_name": "Office2 Ideal Loads Outdoor Air Inlet",
+            "sensible_heat_recovery_effectiveness": 0.0,
+            "zone_supply_air_node_name": "Office2 Ideal Loads Supply Inlet"
+        },
+        "Office3 Ideal Loads Air System": {
+            "cooling_limit": "LimitFlowRateAndCapacity",
+            "cooling_sensible_heat_ratio": 0.7,
+            "dehumidification_control_type": "None",
+            "demand_controlled_ventilation_type": "None",
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office3",
+            "heat_recovery_type": "None",
+            "heating_limit": "LimitCapacity",
+            "humidification_control_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 27,
+            "idf_order": 153,
+            "latent_heat_recovery_effectiveness": 0.0,
+            "maximum_cooling_air_flow_rate": "Autosize",
+            "maximum_heating_supply_air_humidity_ratio": 0.0156,
+            "maximum_heating_supply_air_temperature": 50.0,
+            "maximum_sensible_heating_capacity": "Autosize",
+            "maximum_total_cooling_capacity": "Autosize",
+            "minimum_cooling_supply_air_humidity_ratio": 0.0077,
+            "minimum_cooling_supply_air_temperature": 13.0,
+            "outdoor_air_economizer_type": "DifferentialDryBulb",
+            "outdoor_air_inlet_node_name": "Office3 Ideal Loads Outdoor Air Inlet",
+            "sensible_heat_recovery_effectiveness": 0.0,
+            "zone_supply_air_node_name": "Office3 Ideal Loads Supply Inlet"
+        },
+        "Office4 Ideal Loads Air System": {
+            "cooling_limit": "LimitFlowRateAndCapacity",
+            "cooling_sensible_heat_ratio": 0.7,
+            "dehumidification_control_type": "None",
+            "demand_controlled_ventilation_type": "None",
+            "design_specification_outdoor_air_object_name": "Generic Office Ventilation..Office4",
+            "heat_recovery_type": "None",
+            "heating_limit": "LimitCapacity",
+            "humidification_control_type": "None",
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 27,
+            "idf_order": 158,
+            "latent_heat_recovery_effectiveness": 0.0,
+            "maximum_cooling_air_flow_rate": "Autosize",
+            "maximum_heating_supply_air_humidity_ratio": 0.0156,
+            "maximum_heating_supply_air_temperature": 50.0,
+            "maximum_sensible_heating_capacity": "Autosize",
+            "maximum_total_cooling_capacity": "Autosize",
+            "minimum_cooling_supply_air_humidity_ratio": 0.0077,
+            "minimum_cooling_supply_air_temperature": 13.0,
+            "outdoor_air_economizer_type": "DifferentialDryBulb",
+            "outdoor_air_inlet_node_name": "Office4 Ideal Loads Outdoor Air Inlet",
+            "sensible_heat_recovery_effectiveness": 0.0,
+            "zone_supply_air_node_name": "Office4 Ideal Loads Supply Inlet"
+        }
+    },
+    "ZoneInfiltration:DesignFlowRate": {
+        "Generic Office Infiltration..Office1": {
+            "constant_term_coefficient": 1.0,
+            "design_flow_rate_calculation_method": "Flow/ExteriorArea",
+            "flow_per_exterior_surface_area": 0.0002266,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 81,
+            "schedule_name": "Generic Office Infiltration",
+            "temperature_term_coefficient": 0.0,
+            "velocity_term_coefficient": 0.0,
+            "zone_or_zonelist_name": "Office1"
+        },
+        "Generic Office Infiltration..Office2": {
+            "constant_term_coefficient": 1.0,
+            "design_flow_rate_calculation_method": "Flow/ExteriorArea",
+            "flow_per_exterior_surface_area": 0.0002266,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 95,
+            "schedule_name": "Generic Office Infiltration",
+            "temperature_term_coefficient": 0.0,
+            "velocity_term_coefficient": 0.0,
+            "zone_or_zonelist_name": "Office2"
+        },
+        "Generic Office Infiltration..Office3": {
+            "constant_term_coefficient": 1.0,
+            "design_flow_rate_calculation_method": "Flow/ExteriorArea",
+            "flow_per_exterior_surface_area": 0.0002266,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 109,
+            "schedule_name": "Generic Office Infiltration",
+            "temperature_term_coefficient": 0.0,
+            "velocity_term_coefficient": 0.0,
+            "zone_or_zonelist_name": "Office3"
+        },
+        "Generic Office Infiltration..Office4": {
+            "constant_term_coefficient": 1.0,
+            "design_flow_rate_calculation_method": "Flow/ExteriorArea",
+            "flow_per_exterior_surface_area": 0.0002266,
+            "idf_max_extensible_fields": 0,
+            "idf_max_fields": 12,
+            "idf_order": 123,
+            "schedule_name": "Generic Office Infiltration",
+            "temperature_term_coefficient": 0.0,
+            "velocity_term_coefficient": 0.0,
+            "zone_or_zonelist_name": "Office4"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "steps": [
+        {
+            "arguments": {
+                "model_json": "/root/simulation/test.hbjson",
+                "schedule_csv_dir": "/mount/scheds"
+            },
+            "measure_dir_name": "from_honeybee_model"
+        }
+    ],
+    "measure_paths": [],
+    "file_paths": [
+        "/mount/scheds"
+    ],
+    "weather_file": "/mount/weather/USA_IL_Chicago.OHare.Intl.AP.725300_TMYx.epw"
+}
